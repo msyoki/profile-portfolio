@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Musyoki Mutua, Full-Stack Developer</title>
+  <meta name="description" content="Full-stack developer in Nairobi building document management, e-signature and M-Pesa payment software with Python, Django, FastAPI and React.">
+  <meta property="og:title" content="Musyoki Mutua, Full-Stack Developer">
+  <meta property="og:description" content="Document management, e-signatures and M-Pesa payments, built with Python and React.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#work">Skip to projects</a>
+
+  <header class="top">
+    <a class="mark" href="#top" aria-label="Back to top">MM</a>
+    <nav aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero: a signature block, the one orchestrated animation on the page -->
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="hero-main">
+      <p class="hero-lead">I'm a full-stack developer in Nairobi. I build secure, reliable web and mobile software that businesses run on.</p>
+
+      <div class="signature-block">
+        <div class="signature" aria-hidden="true"><span>Musyoki Mutua</span></div>
+        <div class="sign-line"></div>
+        <div class="sign-meta">
+          <h1 id="hero-name">Musyoki Mutua</h1>
+          <p>Full-stack developer, Nairobi</p>
+          <div class="stamp" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Verified
+        </div>
+        </div>
+      </div>
+
+      <div class="hero-facts">
+        <p><strong>6+ years</strong> with Python, Django, FastAPI and React</p>
+        <p><strong>8 organizations</strong> including IGAD and the University of Nairobi</p>
+        <p><strong>M-Pesa Daraja</strong> payments and reconciliation</p>
+      </div>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#work">See my work</a>
+        <a class="btn" href="assets/Musyoki_Mutua_Full_Stack_Developer_CV.pdf" download>Download CV (PDF)</a>
+      </div>
+      </div>
+
+      <!-- Real app screens, fanned; the whole stack links to the work list -->
+      <a class="hero-shots" href="#work" aria-label="See projects">
+        <img src="assets/shots/shuleplan-home.jpg" alt="" class="shot shot-back">
+        <img src="assets/shots/f8-intro.jpg" alt="" class="shot shot-mid">
+        <img src="assets/shots/kodibox-tenant-home.jpg" alt="" class="shot shot-front">
+      </a>
+    </section>
+
+    <!-- Scrollytelling: the phone stays pinned while each app's story scrolls past -->
+    <section class="apps" aria-labelledby="apps-title">
+      <div class="section-head">
+        <h2 id="apps-title">Mobile apps</h2>
+        <p>Built for how people in Kenya pay, save and keep track.</p>
+      </div>
+      <div class="apps-grid">
+        <ol class="app-steps">
+          <li class="app-step" data-step="0">
+            <img class="step-shot" src="assets/shots/kodibox-tenant-home.jpg" alt="Kodibox tenant home screen">
+            <h3>Kodibox</h3>
+            <p>Tenants see exactly what they owe and pay with one M-Pesa prompt. The money goes straight to the landlord's own paybill.</p>
+            <button type="button" class="step-link" data-open="kodibox">Open project</button>
+          </li>
+          <li class="app-step" data-step="1">
+            <img class="step-shot" src="assets/shots/f8-intro.jpg" alt="F8 onboarding screen">
+            <h3>F8</h3>
+            <p>A business card with a limit that grows. Onboarding walks a company through its KYB and KYC checks in one flow.</p>
+            <button type="button" class="step-link" data-open="f8">Open project</button>
+          </li>
+          <li class="app-step" data-step="2">
+            <img class="step-shot" src="assets/shots/shuleplan-calendar.jpg" alt="ShulePlan calendar screen">
+            <h3>ShulePlan</h3>
+            <p>Every child's homework, exams and fees on one calendar, shared by both parents and usable offline.</p>
+            <button type="button" class="step-link" data-open="shuleplan">Open project</button>
+          </li>
+          <li class="app-step" data-step="3">
+            <img class="step-shot" src="assets/shots/daybook-home.jpg" alt="Daybook home screen">
+            <h3>Daybook</h3>
+            <p>A shop owner records a sale in seconds and sees what's left in the drawer at the end of the day.</p>
+            <button type="button" class="step-link" data-open="daybook">Open project</button>
+          </li>
+        </ol>
+        <div class="phone-wrap" aria-hidden="true">
+          <div class="phone">
+            <img class="phone-screen is-active" src="assets/shots/kodibox-tenant-home.jpg" alt="">
+            <img class="phone-screen" src="assets/shots/f8-intro.jpg" alt="">
+            <img class="phone-screen" src="assets/shots/shuleplan-calendar.jpg" alt="">
+            <img class="phone-screen" src="assets/shots/daybook-home.jpg" alt="">
+          </div>
+          <div class="phone-progress"><span></span><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pinned horizontal gallery: web screens slide sideways as the page scrolls down -->
+    <section class="webgal" aria-labelledby="web-title">
+      <div class="webgal-pin">
+        <div class="section-head">
+          <h2 id="web-title">On the web</h2>
+          <p>Dashboards and portals for organizations, landlords and the public.</p>
+        </div>
+        <ul class="webgal-track">
+          <li class="browser"><div class="browser-bar">Digital Signing System</div><img src="assets/shots/dss-placed.jpg" alt="Digital Signing System with a signature placed on a document" loading="lazy"></li>
+          <li class="browser"><div class="browser-bar">Kodibox</div><img src="assets/shots/kodibox-reconcile.jpg" alt="Kodibox reconciling an M-Pesa payment to a unit" loading="lazy"></li>
+          <li class="browser"><div class="browser-bar">IGAD E-Library</div><img src="assets/shots/igad-home.jpg" alt="IGAD E-Library home page" loading="lazy"></li>
+          <li class="browser"><div class="browser-bar">University of Nairobi Procurement Portal</div><img src="assets/shots/uon-preview.jpg" alt="Procurement portal with a document preview" loading="lazy"></li>
+          <li class="browser"><div class="browser-bar">Kenya Ebola Live Tracker</div><img src="assets/shots/ebola-map.jpg" alt="Ebola tracker map with case counts" loading="lazy"></li>
+          <li class="browser"><div class="browser-bar">stevekenyansafarisandtreks.tours</div><img src="assets/shots/steve-home.jpg" alt="Steve Kenyan Safaris website home page" loading="lazy"></li>
+          <li class="browser"><div class="browser-bar">techedge.co.ke</div><img src="assets/shots/techedge-home.jpg" alt="Techedge Africa website home page" loading="lazy"></li>
+          <li class="browser"><div class="browser-bar">designmotives.co.ke</div><img src="assets/shots/designmotives-home.jpg" alt="Design Motives website home page" loading="lazy"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="work" class="work" aria-labelledby="work-title">
+      <div class="section-head">
+        <h2 id="work-title">Selected work</h2>
+        <p>Most repositories are private. I'm happy to walk you through the code.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" class="filter" aria-pressed="true" data-filter="all">All</button>
+        <button type="button" class="filter" aria-pressed="false" data-filter="enterprise">Enterprise</button>
+        <button type="button" class="filter" aria-pressed="false" data-filter="payments">Payments</button>
+        <button type="button" class="filter" aria-pressed="false" data-filter="mobile">Mobile</button>
+        <button type="button" class="filter" aria-pressed="false" data-filter="websites">Websites</button>
+      </div>
+
+      <ol class="project-list" id="project-list"></ol>
+    </section>
+
+    <section id="experience" class="experience split" aria-labelledby="exp-title">
+      <div class="split-head">
+        <h2 id="exp-title">Experience</h2>
+        <div class="clients">
+          <h3>Delivered for</h3>
+          <ul>
+            <li>IGAD</li>
+            <li>University of Nairobi</li>
+            <li>CARGEN</li>
+            <li>EARE</li>
+            <li>Mhasibu SACCO</li>
+            <li>Banki Kuu SACCO</li>
+            <li>Java House Africa</li>
+            <li>WAICARE</li>
+          </ul>
+        </div>
+      </div>
+      <ol class="timeline">
+        <li>
+          <p class="when">Mar 2020 – now</p>
+          <div>
+            <h3>Consultant, Full-Stack Developer</h3>
+            <p class="where">Techedge Africa</p>
+            <p>I build the company's Digital Signing System and work on its multi-tenant document management platform. I also implement and extend M-Files and integrate client systems. I've delivered for IGAD, the University of Nairobi, CARGEN, EARE, Mhasibu SACCO, Banki Kuu SACCO, Java House Africa and WAICARE, including on-site deployment and training in Djibouti.</p>
+          </div>
+        </li>
+        <li>
+          <p class="when">2020 – now</p>
+          <div>
+            <h3>Freelance Full-Stack Developer</h3>
+            <p class="where">Self-employed</p>
+            <p>Custom web apps, dashboards and automation tools with React, Django and FastAPI, payment and third-party integrations, and WordPress or WooCommerce sites where they fit best.</p>
+          </div>
+        </li>
+        <li>
+          <p class="when">2020</p>
+          <div>
+            <h3>Certificate in Software Development</h3>
+            <p class="where">Moringa School</p>
+          </div>
+        </li>
+        <li>
+          <p class="when">2010 – 2014</p>
+          <div>
+            <h3>Bachelor of Commerce, Business Administration and Management Science</h3>
+            <p class="where">Strathmore University</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="skills" class="skills split" aria-labelledby="skills-title">
+      <div class="split-head">
+        <h2 id="skills-title">Skills</h2>
+      </div>
+      <dl class="skill-grid">
+        <div><dt>Frontend</dt><dd>React, Next.js, Vite, TypeScript, JavaScript, Tailwind CSS, Material UI, Bootstrap</dd></div>
+        <div><dt>Mobile</dt><dd>React Native, Expo, Zustand, offline-first apps with SQLite</dd></div>
+        <div><dt>Backend</dt><dd>Python, Django, Django REST Framework, FastAPI, Node.js</dd></div>
+        <div><dt>Data</dt><dd>PostgreSQL with row-level security, MySQL, Supabase, Drizzle ORM</dd></div>
+        <div><dt>Payments and APIs</dt><dd>M-Pesa Daraja (C2B, STK Push), PayPal, REST, gRPC, JWT and single sign-on, LDAP</dd></div>
+        <div><dt>Tools</dt><dd>Git, GitHub Actions, Docker, Linux, Nginx, IIS, Playwright, Claude Code</dd></div>
+        <div><dt>Enterprise</dt><dd>M-Files, ERPNext, WordPress, WooCommerce</dd></div>
+      </dl>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Have something that needs building?</h2>
+      <p>Email is the fastest way to reach me.</p>
+      <a class="contact-email" href="mailto:msyokimutua@gmail.com">msyokimutua@gmail.com</a>
+      <ul class="contact-links">
+        <li><a href="tel:+254714666105">+254 714 666 105</a></li>
+        <li><a href="https://github.com/msyoki" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/musyoki-mutua-948670134" rel="noopener">LinkedIn</a></li>
+        <li><a href="assets/Musyoki_Mutua_Full_Stack_Developer_CV.pdf" download>CV (PDF)</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Musyoki Mutua, Nairobi</p>
+  </footer>
+
+  <!-- Project detail: opened from the list with a shared-element view transition -->
+  <dialog class="detail" id="detail" aria-labelledby="detail-title">
+    <div class="detail-inner">
+      <button type="button" class="detail-close" id="detail-close">Close</button>
+      <p class="detail-status" id="detail-status"></p>
+      <h2 id="detail-title"></h2>
+      <p class="detail-pitch" id="detail-pitch"></p>
+      <div class="gallery" id="detail-gallery" tabindex="0" aria-label="Screenshots"></div>
+      <h3>What I did</h3>
+      <ul class="detail-points" id="detail-points"></ul>
+      <h3>Stack</h3>
+      <p class="detail-stack" id="detail-stack"></p>
+      <a class="btn btn-primary detail-visit" id="detail-visit" href="#" target="_blank" rel="noopener" hidden></a>
+    </div>
+  </dialog>
+
+  <script src="main.js"></script>
+</body>
+</html>
